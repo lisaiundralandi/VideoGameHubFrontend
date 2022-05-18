@@ -104,10 +104,16 @@ h2 {
     background-color: #157efa;
     color: white;
     padding: 1em 5em;
+    border: none;
     border-radius: 10px;
     font-size: 12pt;
     display: block;
     margin: 3em auto;
+    cursor: pointer;
+}
+
+.registration-button:active{
+    background-color: #126cda;
 }
 
 .login-button {
@@ -119,6 +125,11 @@ h2 {
     font-size: 12pt;
     display: block;
     margin: 3em auto;
+    cursor: pointer;
+}
+
+.login-button:active{
+    background: #eff7ff;
 }
 
 .footer {
