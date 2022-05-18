@@ -2,9 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Video Game Hub</title>
+    <meta name="description"
+          content="Źródło informacji o grach wideo. Zarejestruj się i stwórz własną bibliotekę gier.">
+    <meta name="keywords" content="game, video game, hobby, videogame, games, video games">
+    <meta name="author" content="Alicja Dudzińska">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VideoGameHub</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style/main.css">
 </head>
 <body>
 
+<div class="toolbar">
+    <div class="content">
+
+        <div class="toolbar-title">
+            <img src="images/gamepad.png" class="logo"
+                 alt="logo kontrolera"> VideoGameHub
+        </div>
+
+        <div class="toolbar-actions">
+            <div class="toolbar-search">
+                <img src="images/magnifying-glass.svg" alt="ikona lupki">
+                <label>
+                    <input placeholder="Szukaj">
+                </label>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="main-content content">
+
+    <div class="action">
+        <h2>Załóż konto</h2>
+        <label>
+            <input class="login-form-input" placeholder="Login">
+        </label>
+        <label>
+            <input class="login-form-input" placeholder="Hasło" type="password">
+        </label>
+        <label>
+            <input class="login-form-input" placeholder="Powtórz hasło" type="password">
+        </label>
+        <button class="registration-button">Zarejestruj się</button>
+    </div>
+
+    <div class="action">
+        <h2>Zaloguj</h2>
+        <label>
+            <input class="login-form-input" placeholder="Login">
+        </label>
+        <label>
+            <input class="login-form-input" placeholder="Hasło" type="password">
+        </label>
+        <button class="login-button">Zaloguj się</button>
+
+    </div>
+</div>
 </body>
 </html>
