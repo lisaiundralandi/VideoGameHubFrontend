@@ -2,6 +2,12 @@ body {
     font-family: sans-serif;
     margin: 0;
     line-height: 1.5;
+    background: #eeeeee;
+}
+
+.main {
+    background: #ffffff;
+    padding-bottom: 6em;
 }
 
 .toolbar {
@@ -115,4 +121,17 @@ h2 {
     margin: 3em auto;
 }
 
+.footer {
+    font-size: 14pt;
+    border-top: 1px solid darkgray;
+    background: transparent;
+    padding-top: 1em;
+    color: #858585;
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+}
+
+.footer a {
+    color: #858585;
+}
 
